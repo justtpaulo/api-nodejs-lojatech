@@ -124,4 +124,3 @@ Em caso de dúvidas ou sugestões, sinta-se à vontade para entrar em contato:
 
 Nome: Paulo José
 E-mail: contato@justtpaulo.site
-```
