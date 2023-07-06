@@ -46,24 +46,19 @@ cd api-nodejs-lojatech
 npm install
 ```
 
-3. Configure o banco de dados:
-
-- Crie um banco de dados MySQL.
-- Renomeie o arquivo `.env.example` para `.env` e atualize as variáveis de ambiente com as informações de conexão do seu banco de dados.
-
-4. Execute as migrações do banco de dados:
+3. Crie um banco de dados MySQL:
 
 ```bash
-npx sequelize-cli db:migrate
+CREATE DATABASE lojaonline;
 ```
 
-5. Inicie o servidor:
+4. Inicie o servidor:
 
 ```bash
 npm start
 ```
 
-A API estará acessível em [http://localhost:3000](http://localhost:3000).
+A API estará acessível em [http://localhost:8080](http://localhost:8080).
 
 ## Endpoints
 
@@ -115,7 +110,6 @@ Este projeto está licenciado sob a [MIT License](https://opensource.org/license
 - [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Express.js Documentation](https://expressjs.com/)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
-- [Sequelize Documentation](https://sequelize.org/)
 - [JsonWebToken (JWT) Documentation](https://jwt.io/introduction/)
 
 ## Contato
